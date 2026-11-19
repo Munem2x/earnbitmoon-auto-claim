@@ -1,12 +1,13 @@
 // ==UserScript==
-// @name         Earnbitmoon  Auto Claim (self-learning v50.9)
+// @name         Earnbitmoon  Auto Claim (self-learning v50.10)
 // @namespace    http://tampermonkey.net/
-// @version      50.9
+// @version      50.10
 // @description  Faucet auto-claim: self-learning, dynamic cooldown, reload-loop guards, debug-gated overlays, improved pixel solver.
 // @match        https://earnbitmoon.club/*
 // @match        https://*.earnbitmoon.club/*
 // @downloadURL  https://raw.githubusercontent.com/Munem2x/earnbitmoon-auto-claim/main/EarnBitMoon.user.js
 // @updateURL    https://raw.githubusercontent.com/Munem2x/earnbitmoon-auto-claim/main/EarnBitMoon.user.js
+// @icon         https://earnbitmoon.club/static/favicon.ico
 // @grant        none
 // ==/UserScript==
 
@@ -1812,7 +1813,7 @@
                 + `paths=[${pstr}] hist=[${summarizeHistory(20)}] bail="${lastBailReason}" dom="${lastDomDiag}"`);
         }, CFG.HEARTBEAT_MS);
 
-        log('Initialized (v50.9).');
+        log('Initialized (v50.10).');
     }
 
     if(document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init);
