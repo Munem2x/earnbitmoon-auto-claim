@@ -15,6 +15,12 @@ https://raw.githubusercontent.com/Munem2x/earnbitmoon-auto-claim/main/EarnBitMoo
 `@updateURL` / `@downloadURL` are baked into the metadata block, so updates are picked
 up automatically once installed.
 
+## Referral
+
+```
+https://earnbitmoon.club/?ref=844838
+```
+
 ## Files
 
 | File | Purpose |
